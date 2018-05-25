@@ -1,2 +1,2 @@
-# cd_gke_helm
-Continuous Deployment to Google Kubernetes Engine with Helm
+# cd_gke_kubectl
+Continuous Deployment to Google Kubernetes Engine with kubectl
