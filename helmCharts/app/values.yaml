@@ -2,6 +2,7 @@ environment: ${ENVIRONMENT}
 appVersion: ${APP_VERSION}
 
 feApp:
+  namespace: ${NAMESPACE}
   label: ${APP_LABEL}
   replicaCount: 1
   image:
@@ -15,5 +16,6 @@ feApp:
   port: 80
 
 feSvc:
+  namespace: ${NAMESPACE}
   label: ${APP_LABEL}
   port: 80
