@@ -1,5 +1,5 @@
 resources:
-# REPO of kube configs
+# REPO of helm Charts
   - name: helm_gke_repo
     type: gitRepo
     integration: "drship_github"
